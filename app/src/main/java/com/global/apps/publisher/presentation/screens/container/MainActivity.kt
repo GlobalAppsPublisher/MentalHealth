@@ -1,4 +1,4 @@
-package com.global.apps.publisher.presentation
+package com.global.apps.publisher.presentation.screens.container
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -10,7 +10,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.global.apps.publisher.presentation.ui.theme.MentalHealthTheme
+import com.global.apps.publisher.presentation.utilities.themes.MentalHealthTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
