@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Mental Health</string>
+    <string name="home">Home</string>
+    <string name="insights">Insights</string>
+    <string name="notifications">Notifications</string>
+    <string name="settings">Settings</string>
 </resources>
