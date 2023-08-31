@@ -1,4 +1,4 @@
-package com.global.apps.publisher.presentation.screens.home
+package com.global.apps.publisher.presentation.screens.notifications
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
@@ -10,11 +10,11 @@ import androidx.compose.ui.res.stringResource
 import com.global.apps.publisher.presentation.R
 
 @Composable
-fun HomeScreen() {
+fun NotificationsScreen(){
     Box(
         contentAlignment = Alignment.Center,
         modifier = Modifier.fillMaxSize()
     ) {
-        Text(text = stringResource(id = R.string.home))
+        Text(text = stringResource(id = R.string.notifications))
     }
 }
